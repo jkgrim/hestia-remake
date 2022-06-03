@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="navbar-container">
+      <div class="logo-container">
+        <a href="#" class="hestia-logo">Hestia</a>
+      </div>
+      <div class="nav-links">
+        <a href="#" class="home">HOME</a>
+        <a href="#" class="blog">BLOG</a>
+        <a href="#" class="contact">CONTACT</a>
+        <a href="#" class="more">MORE</a>
+      </div>
+    </div>
+
+    <div class="contact-info-wrapper">
+      <div class="left">
+        <h1>Send us a message</h1>
+        <form action="https://httpbin.org/post" method="post">
+          <div class="first-name-wrapper">
+            <input
+              name="first-name"
+              type="text"
+              placeholder="Your name.."
+              required
+            />
+          </div>
+
+          <div class="last-name-wrapper">
+            <input
+              name="last-name"
+              type="text"
+              placeholder="Your last name.."
+              required
+            />
+          </div>
+
+          <div class="notes-wrapper">
+            <input name="notes" type="text" placeholder="Write something.." />
+          </div>
+
+          <button>Submit</button>
+        </form>
+      </div>
+
+      <div class="right">
+        <div class="top">
+          <i class="fa-solid fa-map"></i>
+          <h3>Find us at the office</h3>
+          <h6>Strada Povernei, nr 20 Bucharest Romania</h6>
+        </div>
+      </div>
+      <div class="middle">
+        <i class="fa-solid fa-phone"></i>
+        <h3>Give us a ring</h3>
+        <h6>John Doe +40 712 345 678 Mon - Fri, 8:00-22:00</h6>
+      </div>
+      <div class="bottom">
+        <i class="fa-solid fa-briefcase"></i>
+        <h3>Legal information</h3>
+        <h6>John Doe Co. Fiscal Code: 12345678</h6>
+      </div>
+    </div>
+
+    <footer>
+      <a href="#">ABOUT</a>
+      <a href="#">PARENT PAGE</a>
+      <div>Hestia | Developed by</div>
+      <a href="https://themeisle.com/">ThemeIsle</a>
+    </footer>
+  </body>
+</html>
