@@ -10,13 +10,61 @@ body .contact-info-wrapper {
   background-color: white;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 30%;
-      grid-template-columns: 50% 30%;
+  -ms-grid-columns: 60% 30%;
+      grid-template-columns: 60% 30%;
   grid-auto-rows: auto;
 }
 
 body .contact-info-wrapper .left {
   margin-left: 200px;
+}
+
+body .contact-info-wrapper .left input {
+  height: 30px;
+  width: 80%;
+  font-size: 14px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+body .contact-info-wrapper .left input:focus {
+  outline: 0;
+}
+
+body .contact-info-wrapper .left .first-name-wrapper {
+  padding: 20px 0;
+}
+
+body .contact-info-wrapper .left .last-name-wrapper {
+  padding: 20px 0;
+}
+
+body .contact-info-wrapper .left .notes-wrapper {
+  padding-bottom: 10px;
+}
+
+body .contact-info-wrapper .left .notes-wrapper input {
+  padding-bottom: 90px;
+}
+
+body .contact-info-wrapper .left button {
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: #e91e63;
+  border: transparent;
+  border-radius: 3px;
+}
+
+body .contact-info-wrapper .right h6 {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: gray;
+  font-weight: 100;
 }
 
 body .contact-info-wrapper .right .text-wrapper {
@@ -35,7 +83,7 @@ body .contact-info-wrapper .right .text-wrapper i {
 
 body .footer {
   position: absolute;
-  bottom: -200px;
+  bottom: -250px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

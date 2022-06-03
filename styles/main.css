@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: gray;
+  background-color: darkgray;
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -106,7 +106,6 @@ a {
 
 .header-container button {
   background-color: #e91e63;
-  /* Green */
   border-radius: 5px;
   border: none;
   color: white;
