@@ -1,1 +1,175 @@
-/* No CSS *//*# sourceMappingURL=blog.css.map */
+.blog-container {
+  width: 95%;
+  margin: auto;
+  position: relative;
+  border-top: 1px solid white;
+  bottom: 50px;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog-container .article-container {
+  margin: 90px 200px 0px 200px;
+}
+
+.blog-container .article-container p {
+  font-size: 14;
+  color: gray;
+  font-weight: 200;
+}
+
+.blog-container .article-container .title {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.blog-container .article-container .worth-article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.blog-container .article-container .worth-article-container .colored {
+  color: purple;
+}
+
+.blog-container .article-container .elements-article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.blog-container .article-container .elements-article-container .colored {
+  color: skyblue;
+}
+
+.blog-container .article-container .more-tags-article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.blog-container .article-container .more-tags-article-container .colored {
+  color: orangered;
+}
+
+.blog-container .article-container .html-article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.blog-container .article-container .html-article-container .colored {
+  color: orange;
+}
+
+.blog-container .article-container .links-article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.blog-container .article-container .links-article-container .colored {
+  color: red;
+}
+
+.blog-container .article-container .category-article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.blog-container .article-container .category-article-container .colored {
+  color: lime;
+}
+
+.blog-container .article-container .hello-article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.blog-container .article-container .hello-article-container .colored {
+  color: purple;
+}
+
+.blog-container .footer {
+  position: absolute;
+  bottom: -90px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  background-color: #323437;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+}
+
+.blog-container .footer a {
+  color: white;
+}
+
+.blog-container .footer .left {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 20%;
+}
+
+.blog-container .footer .right {
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 80%;
+}
+/*# sourceMappingURL=blog.css.map */
