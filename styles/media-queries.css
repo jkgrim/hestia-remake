@@ -1,0 +1,101 @@
+@media (max-width: 425px) {
+  .navbar-container .logo-container {
+    margin-left: 2em;
+    width: 25%;
+  }
+  .navbar-container .nav-links {
+    width: 60%;
+    margin-right: 2em;
+  }
+  .navbar-container .nav-links .more {
+    width: 50px;
+    height: 30px;
+  }
+  .header-container .welcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .info-container .what-we-stand-for .section-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info-container .what-we-stand-for .section-wrapper .responsive {
+    padding-bottom: 20px;
+  }
+  .info-container .what-we-stand-for .section-wrapper .quality {
+    padding-bottom: 20px;
+  }
+  .about-hestia .text-container h3 {
+    font-size: 14px;
+  }
+  .about-hestia .books {
+    max-height: 150px;
+    max-width: 167px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 50px 25px 0 0;
+  }
+  .blog-section h1 {
+    margin: 20px;
+  }
+  .blog-section .section-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blog-section .section-wrapper .left {
+    width: 80% !important;
+    text-align: center;
+    padding-bottom: 35px;
+  }
+  .blog-section .section-wrapper .middle {
+    width: 80% !important;
+    text-align: center;
+    padding-bottom: 35px;
+  }
+  .blog-section .section-wrapper .right {
+    width: 80% !important;
+    text-align: center;
+  }
+  .info-container .contact-wrapper {
+    text-align: center;
+  }
+  .info-container .contact-wrapper .info-wrapper {
+    margin: 0;
+  }
+  .info-container .contact-wrapper .info-wrapper h6 {
+    padding-left: 0;
+  }
+  .info-container .contact-wrapper .info-wrapper .icon-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info-container .footer .left {
+    margin-left: 20px;
+    width: 55%;
+  }
+  .info-container .footer .right {
+    margin-right: 20px;
+  }
+}
+/*# sourceMappingURL=media-queries.css.map */
