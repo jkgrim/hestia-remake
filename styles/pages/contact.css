@@ -1,1 +1,77 @@
-/* No CSS *//*# sourceMappingURL=contact.css.map */
+.fa-solid {
+  color: #e91e63;
+}
+
+body {
+  background-color: white;
+}
+
+body .contact-info-wrapper {
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 30%;
+      grid-template-columns: 50% 30%;
+  grid-auto-rows: auto;
+}
+
+body .contact-info-wrapper .left {
+  margin-left: 200px;
+}
+
+body .contact-info-wrapper .right .text-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .contact-info-wrapper .right .text-wrapper i {
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+body .footer {
+  position: absolute;
+  bottom: -200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  background-color: #323437;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+}
+
+body .footer a {
+  color: white;
+}
+
+body .footer .left {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 20%;
+}
+
+body .footer .right {
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 80%;
+}
+/*# sourceMappingURL=contact.css.map */
